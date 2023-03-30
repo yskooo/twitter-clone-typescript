@@ -23,7 +23,7 @@ const RegisterModal = () => {
 
         registerModal.onClose();
         loginModal.onOpen();
-    }, [isLoading, registerModal, loginModal])
+    }, [isLoading, registerModal, loginModal]);
 
     const onSubmit = useCallback(async () => {
         try {
@@ -66,7 +66,7 @@ const RegisterModal = () => {
                 disabled={isLoading}
             />
         </div>
-    )
+    );
 
     const footerContent = (
         <div className="text-neutral-400 text-center mt-4">
@@ -81,7 +81,7 @@ const RegisterModal = () => {
                 > Sign In </span>
             </p>
         </div>
-    )
+    );
 
      return (
        <Modal
