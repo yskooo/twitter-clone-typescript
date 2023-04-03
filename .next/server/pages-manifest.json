@@ -4,7 +4,8 @@
   "/_document": "pages/_document.js",
   "/users/[userId]": "pages/users/[userId].js",
   "/api/current": "pages/api/current.js",
+  "/api/users": "pages/api/users.js",
   "/api/users/[userId]": "pages/api/users/[userId].js",
   "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
-  "/api/users": "pages/api/users.js"
+  "/api/edit": "pages/api/edit.js"
 }
