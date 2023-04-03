@@ -4,6 +4,7 @@ import { BiCalendar } from 'react-icons/bi';
 
 import useCurrentUser from '../../hooks/useCurrentUser';
 import useUser from '../../hooks/useUser';
+import useEditModal from '../../hooks/useEditModal';
 
 import Button from '../Button';
 
@@ -13,6 +14,8 @@ interface UserBioProps {
 const UserBio: React.FC<UserBioProps> = ({userId}) => {
     const { data: currentUser } = useCurrentUser();
     const { data: fetchedUser } = useUser(userId);
+
+    const editModal = useEditModal();
 
     const createdAt = useMemo(() => {
     if (!fetchedUser?.createdAt) {
@@ -26,7 +29,7 @@ const UserBio: React.FC<UserBioProps> = ({userId}) => {
     <div className='border-b-[1px] border-neutral-800 pb-4'>
         <div className="flex justify-end p-2">
             {currentUser?.id === userId ? (
-                <Button secondary label='Edit' onClick={() => {}} />
+                <Button secondary label='Edit' onClick={editModal.onOpen} />
             ) : (
                 <Button
                     onClick={() => {}}
