@@ -97,7 +97,7 @@ const PostItem: React.FC<PostItemProps> = ({data, userId}) => {
                     text-sm
                     "
                 >
-                    {createdAt}
+                    {createdAt} ago
                 </span>
             </div>
             <div className="text-white mt-1">
