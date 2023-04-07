@@ -30,7 +30,7 @@ export default async function handler (
             throw new Error('Invalid ID');
         }
 
-        let updatedLikedIds = [...(post.likedIds || [])];
+        let updatedLikedIds = [...(post.likeIds || [])];
 
         if (req.method === 'POST') {
             updatedLikedIds.push(currentUser.id);
