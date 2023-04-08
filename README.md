@@ -1,6 +1,6 @@
 # Twitter Clone 
 
-I'd like to note some things that I was confused about and had to read the documentation for. I hope this information might be helpful to you. Please excuse any mistakes in my previous message and let me know if there's anything else I can do to assist you.
+### I'd like to note some things that I was confused about and had to read the documentation for. I hope this information might be helpful to you. Please excuse any mistakes in my previous message and let me know if there's anything else I can do to assist you.
 
 
 #### What is TypeScript?
