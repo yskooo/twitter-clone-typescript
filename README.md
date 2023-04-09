@@ -1,5 +1,20 @@
 # Twitter Clone 
 
+
+## Features
+
+- Authentication system
+- Notification system
+- Image Upload using Base64 strings
+- Prisma ORM with MongoDB
+- Responsive Layout
+- 1 To Many Relations (User - Post)
+- Many To Many Relations (Post - Comment)
+- Following functionality
+- Comments / Replies
+- Likes functionality
+- Vercel Deployment
+
 ### I'd like to note some things that I was confused about and had to read the documentation for. I hope this information might be helpful to you. Please excuse any mistakes in my previous message and let me know if there's anything else I can do to assist you.
 
 
@@ -44,19 +59,6 @@
 - Mutation is an operation in GraphQL that is used to modify data on the server. It allows you to create, update, and delete data in a GraphQL API. In React, you can use a library like Apollo Client to perform mutations and update the UI based on the results.
 
 
-## Features
-
-- Authentication system
-- Notification system
-- Image Upload using Base64 strings
-- Prisma ORM with MongoDB
-- Responsive Layout
-- 1 To Many Relations (User - Post)
-- Many To Many Relations (Post - Comment)
-- Following functionality
-- Comments / Replies
-- Likes functionality
-- Vercel Deployment
 
 
 ## Acknowledgements
