@@ -1,4 +1,4 @@
-# Twitter Clone 
+# Twitter Clone TypeScript
 
 
 ## Features
