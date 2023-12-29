@@ -1,6 +1,4 @@
 # Twitter Clone TypeScript
-
-
 ## Features
 
 - Authentication system
